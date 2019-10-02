@@ -1,1 +1,35 @@
-.banner{}
+.banner{
+    background-color: white;
+    text-align: center;
+    color: #23397f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 20%;
+    display: grid;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
+    text-shadow:
+        2px 2px 0 #000,
+        -1px -1px 0 #000;
+}
+.blank{
+    text-align: center;
+    color: red;
+    background: white;
+    font-size: 30px;
+    display: none;
+}
+
+table{
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.farmers{
+    display: block;
+    border: 2px solid #2339ff;
+    box-shadow: inset 0 0 10px #23397f;
+}

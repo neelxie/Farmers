@@ -1,5 +1,6 @@
 import flask
 from flask import request, jsonify
+from flask_cors import CORS #Prevent fetch errors
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
@@ -140,4 +141,5 @@ def api_id():
             results.append(farmer)
     return jsonify(results)
 
+CORS(app) # Allow CORS on all routes
 app.run()
